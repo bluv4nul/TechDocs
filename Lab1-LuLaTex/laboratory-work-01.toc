@@ -1,0 +1,14 @@
+\xpg@aux {}{russian}
+\contentsline {chapter}{Введение}{3}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Основы искусственного интеллекта}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Понятие ИИ}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Нейронные сети}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Модель нейрона}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Обучение}{5}{subsection.1.2.2}%
+\contentsline {chapter}{\numberline {2}ИИ в повседневной жизни}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Области применения}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Риски и этика}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Основные угрозы}{6}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Регулирование}{7}{subsubsection.2.2.1.1}%
+\contentsline {chapter}{Заключение}{8}{chapter*.5}%
+\contentsline {chapter}{Список литературы}{9}{chapter*.6}%
