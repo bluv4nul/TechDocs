@@ -1,0 +1,92 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% --- стиль и цвет ---
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% --- шрифты и язык (по заданию) ---
+\usepackage{fontspec}
+\defaultfontfeatures{Renderer=Basic, Ligatures=TeX}
+\newfontfamily\cyrillicfonttt{CMU Typewriter Text}
+\newfontfamily\cyrillicfont{CMU Sans Serif}
+\setmainfont{CMU Sans Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguages{english}
+
+% --- поля страницы ---
+\usepackage[scale=0.8]{geometry}
+
+% --- личные данные ---
+\name{Андрей}{Фролов}
+\title{Студент 3 курса, ИВТ}
+\address{Санкт-Петербург, Россия}{Родной город~--- Ярославль}{}
+\phone[mobile]{+7~(000)~000~00~00}
+\email{andrewkafrolov76@gmail.com}
+\social[github]{bluv4nul}
+\social[telegram]{bluv4nul}
+\photo[64pt][0.4pt]{avatar}
+
+\begin{document}
+\makecvtitle
+
+\section{О себе}
+\cvitem{}{Интересуюсь бэкенд-разработкой и работой с данными. Пишу REST API
+  на Python (FastAPI) и Node.js (Express), работаю с реляционными и документными
+  базами данных. Ищу стажировку или практику на позиции backend-разработчика
+  с возможностью совмещать с учёбой.}
+
+\section{Образование}
+\cventry{2024--2028}
+  {Бакалавриат, 09.03.01 «Информатика и вычислительная техника»}
+  {Российский государственный педагогический университет им.~А.\,И.~Герцена}
+  {Санкт-Петербург}
+  {}
+  {Профиль «Технологии разработки программного обеспечения и обработки больших данных».
+   Институт информационных технологий и технологического образования.}
+
+\section{Навыки}
+\cvitem{Языки}{Python, JavaScript (Node.js), SQL}
+\cvitem{Бэкенд}{FastAPI, Pydantic, SQLAlchemy, Express}
+\cvitem{Фронтенд}{Vue~3, Vite, Vue Router, Axios}
+\cvitem{Базы данных}{MySQL, SQLite, MongoDB}
+\cvitem{Инструменты}{Git, Docker, Docker Compose}
+\cvitem{Облака}{Yandex Cloud (ознакомительно)}
+
+\section{Иностранные языки}
+\cvitemwithcomment{Русский}{родной}{}
+\cvitemwithcomment{Английский}{B2}{}
+
+\section{Проекты}
+\cventry{}
+  {ElectroLibrary~--- электронная библиотека (командный проект)}
+  {FastAPI, MongoDB, Vue~3, Docker Compose}
+  {\href{https://github.com/bluv4nul/Study-Library-Project}{github.com/bluv4nul/Study-Library-Project}}
+  {}
+  {Fullstack-приложение из трёх сервисов: REST API на FastAPI, SPA на Vue~3,
+   MongoDB; запуск через Docker Compose.
+   \textbf{Моя роль:} база данных~--- структура коллекций MongoDB,
+   init-скрипты начального наполнения, подключение к API через PyMongo.}
+
+\cventry{}
+  {REST API курсов валют ЦБ РФ}
+  {FastAPI, SQLAlchemy, Pydantic, SQLite}
+  {\href{https://github.com/bluv4nul/cbrrf-rest-api}{github.com/bluv4nul/cbrrf-rest-api}}
+  {}
+  {Асинхронный API: получение курсов с сайта ЦБ РФ, CRUD пользователей,
+   подписки на валюты (связи «один ко многим»), валидация через Pydantic.
+   Сборка deb-пакета.}
+
+\cventry{}
+  {REST API «Калькулятор»}
+  {Node.js, Express}
+  {\href{https://github.com/bluv4nul/frolov-calc}{github.com/bluv4nul/frolov-calc}}
+  {}
+  {Арифметические эндпоинты, валидация параметров через middleware,
+   ответы в JSON, обработка ошибок (код 400, деление на ноль).
+   Развёрнут на \href{https://frolov-calc.ru}{frolov-calc.ru}.}
+
+\end{document}
