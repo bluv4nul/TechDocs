@@ -1,0 +1,4 @@
+\xpg@aux {}{russian}
+\beamer@sectionintoc {1}{Задача}{3}{0}{1}
+\beamer@sectionintoc {2}{Реализация}{7}{0}{2}
+\beamer@sectionintoc {3}{Итоги}{10}{0}{3}

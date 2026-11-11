@@ -1,0 +1,13 @@
+\frametitle{Запуск и ссылки}
+  Запуск сервера:
+\begin{verbatim}
+pip install -r requirements.txt
+uvicorn app:app --reload
+\end{verbatim}
+
+  Ссылки:
+  \begin{itemize}
+    \item Репозиторий: \href{https://github.com/bluv4nul/cbrrf-rest-api}{\texttt{github.com/bluv4nul/cbrrf-rest-api}}
+    \item \href{https://fastapi.tiangolo.com/}{Документация FastAPI}
+    \item \href{https://www.cbr.ru/development/SXML/}{Сервисы данных Банка России}
+  \end{itemize}
