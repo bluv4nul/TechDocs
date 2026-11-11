@@ -35,5 +35,39 @@ services:
       - "127.0.0.1:8080:3000"
     restart: unless-stopped
 
+  redmine-db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: redmine
+      POSTGRES_USER: redmine
+      POSTGRES_PASSWORD: ${REDMINE_DB_PASSWORD}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U redmine -d redmine"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+    volumes:
+      - redmine-db-data:/var/lib/postgresql/data
+
+  redmine:
+    image: redmine:6
+    depends_on:
+      redmine-db:
+        condition: service_healthy
+    environment:
+      REDMINE_DB_POSTGRES: redmine-db
+      REDMINE_DB_DATABASE: redmine
+      REDMINE_DB_USERNAME: redmine
+      REDMINE_DB_PASSWORD: ${REDMINE_DB_PASSWORD}
+      REDMINE_SECRET_KEY_BASE: ${REDMINE_SECRET_KEY_BASE}
+    ports:
+      - "127.0.0.1:3000:3000"
+    restart: unless-stopped
+    volumes:
+      - redmine-files:/usr/src/redmine/files
+
 volumes:
   wiki-db-data:
+  redmine-db-data:
+  redmine-files:
