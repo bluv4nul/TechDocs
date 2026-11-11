@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.9.28)  28 SEP 2026 11:09
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.9.28)  11 NOV 2026 14:07
  restricted system commands enabled.
 **presentation.tex
 (./presentation.tex
@@ -1217,34 +1217,31 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/CMUTypewriterText(1)/b/n --> TU/CMUTypewriterText(1)
 /b/n on input line 57.
 \c@lstlisting=\count393
+ (./presentation.nav) [1
 
-No file presentation.nav.
-[1
-
-{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-No file presentation.toc.
-[2
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./presentation
+.toc) [2
 
 ] [3
 
 ] [4
 
 ]
-<example-image.pdf, id=66, 321.2pt x 240.9pt>
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package luatex.def Info: example-image.pdf  used on input line 120.
-(luatex.def)             Requested size: 171.14767pt x 128.36375pt.
+<swagger.jpg, id=85, 803.0pt x 564.1075pt>
+File: swagger.jpg Graphic file (type jpg)
+<use swagger.jpg>
+Package luatex.def Info: swagger.jpg  used on input line 119.
+(luatex.def)             Requested size: 246.45308pt x 173.13278pt.
  [5
 
-<c:/texlive/2026/texmf-dist/tex/latex/mwe/example-image.pdf>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 150
+<./swagger.jpg>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 149
 .
 
 (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 150
+LaTeX Font Info:    Trying to load font information for U+msb on input line 149
 .
 
 (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1296,36 +1293,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
  ***********
-
-
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  588B926DAAF272A6ACE84A8BFB10EAA7;297.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: 588B926DAAF272A6ACE84A8BFB10EAA7;297.
 )
 
 Here is how much of LuaTeX's memory you used:
- 30974 strings out of 475607
+ 31059 strings out of 475607
  100000,1373583 words of node,token memory allocated
  3876 words of node memory still in use:
    101 hlist, 6 vlist, 17 rule, 4 disc, 1 local_par, 30 dir, 92 glue, 4 kern, 11
  penalty, 23 glyph, 230 attribute, 61 glue_spec, 230 attribute_list, 4 write, 11
 7 pdf_literal, 12 pdf_colorstack nodes
-   avail lists: 2:1113,3:582,4:300,5:247,6:59,7:1604,9:866,10:9,11:163
- 53011 multiletter control sequences out of 65536+600000
- 70 fonts using 12446071 bytes
- 101i,15n,101p,387b,1117s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 2:1113,3:582,4:300,5:247,6:59,7:1602,9:866,10:9,11:163
+ 53086 multiletter control sequences out of 65536+600000
+ 71 fonts using 12744959 bytes
+ 101i,15n,101p,387b,1118s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/opentype/public/cm-unicode/cmuntb.otf><c:/texl
 ive/2026/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf><c:/texlive/2026
 /texmf-dist/fonts/opentype/public/cm-unicode/cmunsx.otf><c:/texlive/2026/texmf-d
 ist/fonts/opentype/public/cm-unicode/cmunss.otf>
-Output written on presentation.pdf (18 pages, 71662 bytes).
+Output written on presentation.pdf (18 pages, 94658 bytes).
 
-PDF statistics: 303 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
+PDF statistics: 311 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
  40 named destinations out of 1000 (max. 1048576)
- 506 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 540 words of extra memory for PDF output out of 10000 (max. 100000000)
 

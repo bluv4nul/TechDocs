@@ -22,6 +22,7 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{url}
+\newcommand{\q}{\symbol{34}}
 \usetikzlibrary{positioning, arrows.meta, shapes.multipart}
 
 % --- тема и цвета ---
@@ -109,6 +110,19 @@
   \end{center}
 }
 
+\block{Интерфейс API}{
+  FastAPI сам строит документацию по коду. По адресу \texttt{/docs}
+  открывается Swagger UI, где каждый эндпоинт можно вызвать из браузера.
+
+  \vspace{0.5em}
+  \begin{center}
+  \includegraphics[width=0.6\linewidth]{swagger}
+
+  \vspace{0.5em}
+  \normalsize Рис.~2. Swagger UI сервиса
+  \end{center}
+}
+
 % ================= Правая колонка =================
 \column{0.5}
 
@@ -135,7 +149,7 @@
   \end{tikzpicture}
 
   \vspace{0.5em}
-  \normalsize Рис.~2. Схема базы данных
+  \normalsize Рис.~3. Схема базы данных
   \end{center}
 
   \vspace{1em}
@@ -149,7 +163,7 @@
     \midrule
     \texttt{/users/}        & создание, список, просмотр, изменение, удаление \\
     \texttt{/currencies/}   & получение курсов, синхронизация с ЦБ РФ \\
-    \texttt{/subscription/} & оформление и отмена подписки \\
+    \texttt{/subscriptions/} & оформление и отмена подписки \\
     \bottomrule
   \end{tabular}
   \end{center}
@@ -157,6 +171,19 @@
   \vspace{0.5em}
   Все операции с базой данных выполняются асинхронно, входные данные
   проверяются схемами Pydantic.
+}
+
+\block{Пример ответа}{
+  Запрос \texttt{GET /currencies/} после синхронизации с ЦБ РФ возвращает
+  список валют с курсом в рублях:
+
+  \vspace{0.5em}
+  {\ttfamily\addfontfeatures{Ligatures=TeXOff}\normalsize
+  [\\
+  \hspace*{1.5em}\{\q id\q: 1, \q code\q: \q AUD\q, \q name\q: \q Австралийский доллар\q, \q value\q: 57.1567\},\\
+  \hspace*{1.5em}\{\q id\q: 4, \q code\q: \q GBP\q, \q name\q: \q Фунт стерлингов\q, \q value\q: 110.6399\},\\
+  \hspace*{1.5em}...\\
+  ]\par}
 }
 
 \block{Выводы}{

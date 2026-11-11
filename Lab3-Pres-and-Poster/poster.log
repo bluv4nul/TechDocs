@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.9.23)  28 SEP 2026 11:02
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.9.28)  11 NOV 2026 14:08
  restricted system commands enabled.
 **poster.tex
 (./poster.tex
@@ -788,16 +788,16 @@ File: gloss-russian.ldf 2026/09/11 v2.13 polyglossia: module for Russian
 Package: xpg-cyrillicnumbers 2019/11/15 v0.2 Formatting of Cyrillic alphabetic 
 numbers
 )
-Module polyglossia Info: Language russian not found in language.dat.lua on input
- line 19
-Module polyglossia Info: Language russian not found in language.dat.lua on input
- line 19
+Module polyglossia Info: Language data for russian
+(polyglossia)            hyphenation	hyph-ru.hyp.txt
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            loader	loadhyph-ru.tex
+(polyglossia)            patterns	hyph-ru.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	 on input line 19
+Module polyglossia Info: Language russian was not yet loaded; created with id 2 
+on input line 19
 
-
-Package polyglossia Warning: No hyphenation patterns were loaded for `russian'
-(polyglossia)                I will use \language=\l@nohyphenation instead.
-
-\l@russian = a dialect from \language\l@nohyphenation 
 (c:/texlive/2026/texmf-dist/tex/generic/babel/cyrl2uni.def
 File: cyrl2uni.def 2026/05/03 v0.3 Map to Unicode from Cyrillic LICR
 )
@@ -868,26 +868,26 @@ LaTeX Warning: Unused global option(s):
     [margin=0mm,innermargin=15mm,blockverticalspace=25mm,colspace=15mm,subcolsp
 ace=8mm].
 
-No file poster.aux.
-
+(./poster.aux)
 \openout1 = poster.aux
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-(c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+ (c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count332
 \scratchdimen=\dimen374
@@ -950,84 +950,98 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 45.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 45.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 45.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 45.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 45.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 45.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 45.
-LaTeX Font Info:    Redeclaring math accent \check on input line 45.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 45.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 45.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 45.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 45.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 46.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 46.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 46.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 46.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 46.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 46.
+LaTeX Font Info:    Redeclaring math accent \check on input line 46.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 46.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 46.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 46.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 45.
+(Font)              `operators' in the math version `normal' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/CMUSansSerif(1)/m/n on input line 45
+(Font)                  OT1/cmr/m/n --> TU/CMUSansSerif(1)/m/n on input line 46
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 45.
+(Font)              `operators' in the math version `bold' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/CMUSansSerif(1)/m/n on input line 4
-5.
+6.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/CMUSansSerif(1)/m/n --> TU/CMUSansSerif(1)/m/n on in
-put line 45.
+put line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/CMUSansSerif(1)/m/it on input line 
-45.
+46.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/CMUSansSerif(1)/b/n on input line 4
-5.
+6.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/CMUSansSerif(1)/m/n on input line 4
-5.
+6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/CMUTypewriterText(1)/m/n on input l
-ine 45.
+ine 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/CMUSansSerif(1)/m/n --> TU/CMUSansSerif(1)/b/n on in
-put line 45.
+put line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/CMUSansSerif(1)/b/it on input line
- 45.
+ 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/CMUSansSerif(1)/b/n on input line 
-45.
+46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/CMUTypewriterText(1)/b/n on input l
-ine 45.
+ine 46.
 luaotfload | aux : no font with id 0
 
 LaTeX Font Warning: Font shape `TU/CMUSansSerif(0)/m/sc' undefined
-(Font)              using `TU/CMUSansSerif(0)/m/n' instead on input line 47.
+(Font)              using `TU/CMUSansSerif(0)/m/n' instead on input line 48.
 
+<swagger.jpg, id=29, 803.0pt x 564.1075pt>
+File: swagger.jpg Graphic file (type jpg)
+<use swagger.jpg>
+Package luatex.def Info: swagger.jpg  used on input line 124.
+(luatex.def)             Requested size: 645.31508pt x 453.36102pt.
 
-Underfull \hbox (badness 2970) in paragraph at lines 78--78
-[]\TU/CMUSansSerif(0)/m/n/29.86 Курсы валют нужны во мног
-их приложениях: от интернет-магазинов до
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 160--160
-[]\TU/CMUSansSerif(1)/m/n/29.86 Все операции с базой данн
-ых выполняются асинхронно, входные данные
- []
+Package fontspec Info: 
+(fontspec)             Font family 'CMUTypewriterText(2)' created for font
+(fontspec)             'CMU Typewriter Text' with options
+(fontspec)             [Renderer=Basic,Ligatures=TeX,Ligatures=TeXOff].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:CMU
+(fontspec)             Typewriter
+(fontspec)             Text:mode=base;script=latn;language=dflt;-tlig;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:CMU Typewriter
+(fontspec)             Text/B:mode=base;script=latn;language=dflt;-tlig;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:CMU
+(fontspec)             Typewriter
+(fontspec)             Text/I:mode=base;script=latn;language=dflt;-tlig;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:CMU
+(fontspec)             Typewriter
+(fontspec)             Text/BI:mode=base;script=latn;language=dflt;-tlig;"
 
 [1
 
@@ -1035,7 +1049,7 @@ Underfull \hbox (badness 1603) in paragraph at lines 160--160
 Missing character: There is no 1 (U+0031) in font nullfont!
 Missing character: There is no = (U+003D) in font nullfont!
 Missing character: There is no 1 (U+0031) in font nullfont!
-] (./poster.aux)
+<./swagger.jpg>] (./poster.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
@@ -1047,24 +1061,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22150 strings out of 475607
- 100000,1144653 words of node,token memory allocated
+ 22194 strings out of 475607
+ 156267,1144653 words of node,token memory allocated
  953 words of node memory still in use:
    19 hlist, 1 vlist, 9 rule, 2 glue, 3 kern, 1 glyph, 53 attribute, 52 glue_spe
 c, 53 attribute_list, 2 write, 16 pdf_literal, 16 pdf_colorstack nodes
-   avail lists: 1:1,2:4736,3:2520,4:138,5:520,6:118,7:8384,8:61,9:1430,10:13,11:
-16
- 44442 multiletter control sequences out of 65536+600000
- 82 fonts using 13751639 bytes
- 117i,11n,114p,465b,2019s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:1,2:5532,3:2932,4:158,5:606,6:140,7:10596,8:61,9:1684,10:20,11
+:902
+ 44479 multiletter control sequences out of 65536+600000
+ 94 fonts using 17114359 bytes
+ 117i,11n,114p,465b,2027s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf><c:/texl
-ive/2026/texmf-dist/fonts/opentype/public/cm-unicode/cmunsi.otf><c:/texlive/2026
-/texmf-dist/fonts/opentype/public/cm-unicode/cmunss.otf><c:/texlive/2026/texmf-d
-ist/fonts/opentype/public/cm-unicode/cmunsx.otf>
-Output written on poster.pdf (1 page, 30425 bytes).
+ive/2026/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf><c:/texlive/2026
+/texmf-dist/fonts/opentype/public/cm-unicode/cmunsi.otf><c:/texlive/2026/texmf-d
+ist/fonts/opentype/public/cm-unicode/cmunss.otf><c:/texlive/2026/texmf-dist/font
+s/opentype/public/cm-unicode/cmunsx.otf>
+Output written on poster.pdf (1 page, 77403 bytes).
 
-PDF statistics: 63 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 1048576)
  176 words of extra memory for PDF output out of 10000 (max. 100000000)
 

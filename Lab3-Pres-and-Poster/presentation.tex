@@ -110,12 +110,11 @@
 
 % ---------- Шаг 2: изображение ----------
 \begin{frame}
-  \frametitle{Изображение}
+  \frametitle{Документация API}
   \begin{center}
-    % замените example-image на свой скриншот, например Swagger UI (/docs)
-    \includegraphics[width=0.5\textwidth]{example-image}
+    \includegraphics[width=0.72\textwidth]{swagger}
 
-    \small Здесь может быть скриншот документации API (Swagger UI)
+    \small Swagger UI по адресу \texttt{/docs}: все эндпоинты сервиса
   \end{center}
 \end{frame}
 
@@ -207,7 +206,7 @@ uvicorn app:app --reload
   \begin{itemize}
     \item<1-> \texttt{/users/}~--- создание, просмотр, изменение, удаление
     \item<2-> \texttt{/currencies/}~--- курсы и синхронизация с ЦБ~РФ
-    \item<3-> \texttt{/subscription/}~--- оформление и отмена подписки
+    \item<3-> \texttt{/subscriptions/}~--- оформление и отмена подписки
   \end{itemize}
 
   \onslide<4->{
